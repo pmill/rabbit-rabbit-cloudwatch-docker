@@ -1,0 +1,23 @@
+{
+  "run": "single",
+  "rabbitmq": {
+    "host": "localhost:15672",
+    "username": "guest",
+    "password": "guest"
+  },
+  "cloudwatch": {
+    "region": "eu-west-1",
+    "key": "",
+    "secret": ""
+  },
+  "metrics": {
+    "queue_messages": {
+      "vhost": "/",
+      "queue": "messages"
+    },
+    "queue_other": {
+      "vhost": "/",
+      "queue": "other"
+    }
+  }
+}

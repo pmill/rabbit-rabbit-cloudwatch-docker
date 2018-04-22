@@ -1,0 +1,17 @@
+{
+  "name": "pmill/rabbit-rabbit-cloudwatch-docker",
+  "description": "An dockerfile that runs pmill/rabbit-rabbit-cloudwatch",
+  "keywords": ["php", "rabbitmq", "rules", "management", "api", "aws", "cloudwatch", "docker"],
+  "homepage": "https://github.com/pmill/rabbit-rabbit-cloudwatch-docker",
+  "license": "BSD 3-Clause",
+  "authors": [
+    {
+      "name": "pmill",
+      "email": "dev.pmill@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "pmill/rabbit-rabbit-cloudwatch": "^0.1.0"
+  }
+}
